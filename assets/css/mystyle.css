@@ -1,0 +1,74 @@
+.main-pagenya {
+  height: 100% !important;
+  background-color: red !important;
+}
+#halamannya {
+    background-image: url('../img/banner.jpg');
+    height: 100vh !important;
+    /* background-color: red !important; */
+}
+.form-idkey {
+    color: black;
+    text-align: center;
+}
+.form-idkey label {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transform: translateY(40px);
+    transition: all 0.4s;
+    cursor: text;
+    z-index: -1;
+  }
+  .form-idkey label.active {
+    transform: translateY(10px);
+    font-size: 10px;
+  }
+.form-idkey input:not([type=submit]) {
+    background: none;
+    outline: none;
+    border: none;
+    display: block;
+    padding: 10px 0 5px 0;
+    width: 100%;
+    border-bottom: 1px solid #FE0000;
+    color: #444;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    z-index: 1;
+    text-align: center;
+    text-transform: uppercase !important;
+  }
+  .btn-flat {
+    border-radius: 0px;
+  }
+  #cekdatakey {
+    margin-top: 10px;
+    width: 150px;
+    max-width: 100%;
+    background-color: #FE0000 !important;
+    border-color: bisque;
+    color: black;
+  }
+  .isideklarasi {
+    color: black;
+    font-size: 13px;
+    background-color: blanchedalmond;
+    line-height: 20px;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .fixed1 {
+    width: 100px;
+  }
+  .tablepernyataan {
+    border-collapse: collapse;
+  }
+.tablepernyataan tr td {
+  border: 1px solid black;
+}
+.tombol {
+  text-align: center;
+}
